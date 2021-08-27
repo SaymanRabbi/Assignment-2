@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 3rem;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #777;
+}
+
+body a {
+  text-decoration: none;
+  color: #777;
+}
+
+.header {
+  height: 10rem;
+  border-bottom: 1px solid #777;
+}
+
+.header__left {
+  width: 23%;
+  height: 10rem;
+  float: left;
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.header__left--icon1 {
+  font-size: 3rem;
+  color: black;
+  cursor: pointer;
+  padding: 0 5rem;
+}
+
+.header__left--icon2 {
+  font-size: 3rem;
+  color: black;
+  width: 5rem;
+  cursor: pointer;
+}
+
+.header__left--text {
+  padding: 0 5rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header__middle {
+  width: 57%;
+  height: 10rem;
+  float: left;
+}
+
+.header__middle--img {
+  height: 6rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.header__right {
+  width: 20%;
+  height: 10rem;
+  float: right;
+  text-align: center;
+}
+
+.header__right--notification {
+  font-size: 3rem;
+  color: black;
+  padding: 0 5rem;
+  cursor: pointer;
+}
+
+.header__right--button {
+  width: 7rem;
+  height: 3rem;
+  border: 1px solid #777;
+}
+
+.header__right--button .login {
+  text-decoration: none;
+  color: #09f;
+  font-weight: 700;
+}
+
+.nav-bar {
+  max-width: 100%;
+  text-align: center;
+  height: 10rem;
+}
+
+.nav-bar .display--inlineblock {
+  height: 10rem;
+  padding: 3rem 0;
+  margin-bottom: 5rem;
+}
+
+.nav-bar .display--inlineblock li {
+  display: inline-block;
+}
+
+.nav-bar .display--inlineblock li a {
+  padding: 2rem 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.nav-bar .display--inlineblock li a:hover {
+  color: #1a237e;
+  border-bottom: 2px solid #1a237e;
+}
+
+.main {
+  max-width: 100%;
+  min-height: calc(100vh - (10rem - 10rem - 10rem));
+}
+
+.main__left {
+  width: 24%;
+  height: 20rem;
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+.main__left span {
+  color: black;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  display: block;
+}
+
+.main__middle {
+  width: 24%;
+  height: 5rem;
+  float: left;
+  margin: 0px 10px 0px 10px;
+}
+
+.main__middle2 {
+  width: 24%;
+  height: 5rem;
+  float: left;
+  margin: 0px 10px 0px 10px;
+  text-align: center;
+}
+
+.main__right {
+  width: 24%;
+  height: 5rem;
+  float: left;
+  margin: 0px 0px 0px 0px;
+}
+
+.rem {
+  font-size: 2rem;
+  color: black;
+  font-weight: 700;
+}
+
+.pera {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+.main .container .container-1 {
+  width: 100%;
+  margin: 0px 0px 5rem 0px;
+}
+
+footer {
+  height: 10rem;
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
