@@ -212,6 +212,9 @@ body a {
 .main__box--item4 {
   width: 24%;
   height: 25rem;
+  border-right: .1rem solid #777;
+  border-bottom: .1rem solid #777;
+  background-color: #F1F1F1;
 }
 
 .red {
@@ -341,5 +344,51 @@ body a {
 
 .padding {
   border: 1px solid #777;
+}
+
+.dhaka__city {
+  width: 100%;
+  height: 50rem;
+  margin-top: 3rem;
+}
+
+.dhaka__city .span {
+  font-size: 2rem;
+  color: red;
+}
+
+.dhaka__city1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.dhaka__city1--one {
+  width: 24%;
+  height: 30rem;
+  background-color: #F1F1F1;
+  padding: 1.5rem;
+}
+
+.dhaka__city1--tow {
+  width: 24%;
+  height: 30rem;
+  background-color: #F1F1F1;
+  padding: 1.5rem;
+}
+
+.dhaka__city1--three {
+  width: 24%;
+  height: 30rem;
+  background-color: #F1F1F1;
+  padding: 1.5rem;
+}
+
+.dhaka__city1--four {
+  width: 24%;
+  height: 30rem;
+  background-color: #F1F1F1;
+  padding: 1.5rem;
 }
 /*# sourceMappingURL=style.css.map */
