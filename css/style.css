@@ -19,6 +19,36 @@ body {
   color: #777;
 }
 
+body h1 {
+  font-size: 2rem;
+  color: black;
+  font-weight: 900;
+}
+
+body h2 {
+  font-size: 2rem;
+  color: black;
+  font-weight: 700;
+}
+
+body h3 {
+  font-size: 2rem;
+  color: black;
+  font-weight: 900;
+}
+
+body p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+body span {
+  margin-top: 1.8rem;
+  color: black;
+  font-size: 1.7rem;
+}
+
 body a {
   text-decoration: none;
   color: #777;
@@ -128,65 +158,188 @@ body a {
   border-bottom: 2px solid #1a237e;
 }
 
-.main {
-  max-width: 100%;
+.main__box {
   min-height: calc(100vh - (10rem - 10rem - 10rem));
+  width: 100%;
+  margin-bottom: 10rem;
 }
 
-.main__left {
-  width: 24%;
+.main__box .another {
   height: 20rem;
-  float: left;
+  width: 100%;
+}
+
+.main__box--item {
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main__box--item1 {
+  width: 24%;
+  height: 25rem;
+  margin: 0 10px 0 0px;
+}
+
+.main__box--item1 .auto {
+  display: block;
+  margin: auto;
+}
+
+.main__box--item3 {
+  width: 24%;
+  height: 25rem;
+  margin: 0 10px 0 0px;
+  border-left: .1px solid #777;
+  padding: 1rem;
+}
+
+.main__box--item3 img {
+  height: 18.5rem;
+  width: 30.4;
+}
+
+.main__box--item2 {
+  width: 24%;
+  height: 25rem;
+  margin: 0 10px 0 0px;
+  border-left: .1px solid #777;
+  padding: 1rem;
+}
+
+.main__box--item4 {
+  width: 24%;
+  height: 25rem;
+}
+
+.red {
+  color: red;
+  font-size: 1.8rem;
+}
+
+.tow {
+  border: none;
+}
+
+.three {
+  border: none;
+}
+
+.another-part {
+  width: 30%;
+}
+
+.another--part .nav ul li {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 5rem;
+}
+
+.another--part .nav ul li a {
+  list-style: none;
+  text-decoration: none;
+  padding: 2rem;
+  font-size: 2rem;
+  color: black;
+  font-weight: 900;
+}
+
+.another--part .nav ul li a:hover {
+  color: #1a237e;
+  border-bottom: 2px solid #1a237e;
+}
+
+.another--box {
+  width: 100%;
+}
+
+.another--box__grab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60rem;
+}
+
+.another--box__grab--one {
+  width: 25%;
+  height: 60rem;
+  padding: 2rem;
   margin: 0px 10px 0px 0px;
 }
 
-.main__left span {
-  color: black;
-  font-size: 2rem;
-  margin-top: 1.5rem;
-  display: block;
+.another--box__grab--one .chipa {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.main__middle {
-  width: 24%;
-  height: 5rem;
-  float: left;
-  margin: 0px 10px 0px 10px;
-}
-
-.main__middle2 {
-  width: 24%;
-  height: 5rem;
-  float: left;
-  margin: 0px 10px 0px 10px;
-  text-align: center;
-}
-
-.main__right {
-  width: 24%;
-  height: 5rem;
-  float: left;
-  margin: 0px 0px 0px 0px;
-}
-
-.rem {
-  font-size: 2rem;
-  color: black;
-  font-weight: 700;
-}
-
-.pera {
-  margin-top: 2rem;
-  font-size: 1.5rem;
-}
-
-.main .container .container-1 {
+.another--box__grab--one .chipa .box1 {
   width: 100%;
-  margin: 0px 0px 5rem 0px;
+  height: 10rem;
+  margin-bottom: 2rem;
 }
 
-footer {
-  height: 10rem;
-  background-color: black;
+.another--box__grab--one .chipa .box2 {
+  width: 100%;
+  height: 14rem;
+  margin-bottom: 2rem;
+}
+
+.another--box__grab--one .chipa .box3 {
+  width: 100%;
+  height: 16rem;
+  margin-bottom: 2rem;
+}
+
+.another--box__grab--tow {
+  width: 50%;
+  height: 60rem;
+  padding: 2rem;
+  margin: 0px 10px 0px 0px;
+}
+
+.another--box__grab--tow .chipa--tow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.another--box__grab--tow .chipa--tow__box1 {
+  width: 100%;
+  height: 15rem;
+  margin-bottom: 5rem;
+}
+
+.another--box__grab--tow .chipa--tow__box1 img {
+  height: 220px;
+}
+
+.another--box__grab--tow .chipa--tow__box2 {
+  width: 100%;
+  height: 40rem;
+  margin-top: 3rem;
+}
+
+.another--box__grab--tow .chipa--tow__box2 img {
+  height: 260px;
+}
+
+.another--box__grab--three {
+  width: 25%;
+  height: 60rem;
+}
+
+.padding {
+  border: 1px solid #777;
 }
 /*# sourceMappingURL=style.css.map */
