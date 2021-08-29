@@ -133,6 +133,7 @@ body a {
   max-width: 100%;
   text-align: center;
   height: 10rem;
+  background-color: #777;
 }
 
 .nav-bar .display--inlineblock {
@@ -154,7 +155,7 @@ body a {
 }
 
 .nav-bar .display--inlineblock li a:hover {
-  color: #1a237e;
+  color: #F1F1F1;
   border-bottom: 2px solid #1a237e;
 }
 
